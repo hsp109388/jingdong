@@ -1,0 +1,160 @@
+/*
+* @Author: 胡世鹏
+* @Date:   2017-11-20 15:00:18
+* @Last Modified by:   胡世鹏
+* @Last Modified time: 2017-11-20 16:57:00
+*/
+.jdm_sort{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 搜索框 */
+.search{
+  width: 100%;
+  height: 45px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url('../images/header-bg.png');
+
+}
+.search input{
+  width: 100%;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.search span{
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  display: inline-block;
+  width: 13px;
+  height: 33px;
+  background: url('../images/jd-sprites.png') -23px 12px;
+  background-size: 200px 200px;
+}
+.search a{
+  position: absolute;
+  right: 18px;
+  top: 0px;
+  display: inline-block;
+  width: 20px;
+  height: 32px;
+  background: url('../images/jd-sprites.png') -60px 12px;
+  background-size: 200px 200px;
+}
+
+
+/* 内容部分 */
+.jdm_menu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top:0;
+  left: 0;
+  padding: 45px 0 0 0 ;
+  box-sizing: border-box;
+ 
+}
+.jdm_menu .menu_l {
+  width: 90px;
+   height: 100%;
+   overflow: hidden;
+}
+.jdm_menu .menu_l ul{
+  width: 100%;
+}
+.jdm_menu .menu_l ul li{
+  width: 100%;
+  height : 50px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #eee;
+}
+.jdm_menu .menu_l ul li:first-child{
+  border: none;
+  color: red;
+  background-color: #fff;
+}
+.menu_r{
+  flex: 1;
+  height: 100%;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.menu_r h4{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu_r .hot ul{
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.menu_r .hot ul li{
+  width: 33.33333333%;
+  height:50px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.menu_r .hot1{
+  margin-top: 20px;
+  width: 100%;
+}
+.menu_r .hot1 ul{
+  overflow: hidden;
+  width: 100%;
+}
+.menu_r .hot1 ul li{
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+
+.menu_r .hot2{
+  width: 100%;
+  margin-top: 20px;
+}
+.menu_r .hot2 ul{
+   overflow: hidden;
+  width: 100%;
+}
+.menu_r .hot2 ul li{
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+
+
+.menu_r .hot3{
+  width: 100%;
+  margin-top: 20px;
+}
+.menu_r .hot3 ul{
+   overflow: hidden;
+  width: 100%;
+}
+.menu_r .hot3 ul li{
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+
